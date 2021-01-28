@@ -76,7 +76,7 @@ namespace GameSimulation
                     }
                     else if (section == 0)
                     {
-                        Console.WriteLine("Your Campaign Name : {0} , Your Campaign ID : {1}, Your Campaign Long : {3}" + campaign.CampaignName + campaign.CampaignId + campaign.CampaignLong);
+                        Console.WriteLine("Your Campaign Name : " + campaign.CampaignName + "       "   + " Your Campaign ID : " + campaign.CampaignId + "     " +  "Your Campaign Long : " +  campaign.CampaignLong);
                         campaignManager.AddCampaign(campaign);
                         campaignManager.DeleteCampaign(campaign);
                         campaignManager.UpdateCampaign(campaign);
